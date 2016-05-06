@@ -23,13 +23,14 @@ TABLE OF CONTENTS
  *      6 - Content
            6.1 - Posts and pages
            6.2 - Post Formats
- *      7 - Footer
- *      8 - Forms & Comments
- *      9 - Widgets
- *     10 - Media
+ *      7 - Forms & Comments
+ *      8 - Widgets
+ *      9 - Media
+ *     10 - Footer
  *     11 - Media Queries
-
+ *     12 - Utility Helper Classes
 */
+
 
 /* CSS RESET
 ------------
@@ -121,7 +122,42 @@ p + p {
     text-indent: 2em;
 }
 
+/* HEADER
+    ------
+*/
+
+
+/* MENUS
+   ------
+            */
+
+/* CONTENT
+   -------
+           6.1 - Posts and pages
+           6.2 - Post Formats
+
+/* FORMS & COMMENTS
+    ----------------
+*/
+
+/* WIDGETS
+   -------
+*/
+
+/* MEDIA
+   -----
+*/
+
+/* FOOTER
+   ------
+*/
+
+/* MEDIA QUERIES
+   -------------
+*/
+
 /* UTILITY HELPER CLASSES
 -------------------------
 http://cssguidelin.es/#important
 */
+

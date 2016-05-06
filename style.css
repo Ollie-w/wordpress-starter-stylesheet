@@ -1,0 +1,127 @@
+/*
+Theme Name:
+Author: Oliver Williams
+Description:
+Version: 0
+License: GNU General Public License v2 or later
+Text Domain:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool
+/*
+
+/*
+TABLE OF CONTENTS
+
+ *      1 - CSS RESET
+ *      2 - Globals - simple "presets"
+           2.1 - Typography
+           2.2 - Links
+ *      3 - Lobotomized owls and adjacent sibling selectors
+ *      4 - Header
+ *      5 - Menus
+ *      6 - Content
+           6.1 - Posts and pages
+           6.2 - Post Formats
+ *      7 - Footer
+ *      8 - Forms & Comments
+ *      9 - Widgets
+ *     10 - Media
+ *     11 - Media Queries
+
+*/
+
+/* CSS RESET
+------------
+http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+http://meyerweb.com/eric/tools/css/reset/
+*/
+
+body, html {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* SIMPLE GLOBAL STYLING PRESETS
+--------------------------------*/
+
+p {
+max-width: 620px;
+}
+
+h1 {font-size: 1.5em;}
+h2 {font-size: 1.4em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1.2em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 1em;}
+
+h1, h2, h3, h4, h5 {font-weight: normal;}
+
+/* LOBOTOMIZED OWLS & ADJACENT SIBLING SELECTORS - DEFAULT MARGINS ETC
+----------------------------------------------------------------------
+http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
+*/
+
+p + p {
+    margin-top: 0;
+    text-indent: 2em;
+}
+
+/* UTILITY HELPER CLASSES
+-------------------------
+http://cssguidelin.es/#important
+*/
